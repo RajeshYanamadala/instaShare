@@ -1,0 +1,61 @@
+@box-sizing: border-box;
+
+.insta-img-paragraph-card {
+  display: flex;
+  align-items: center;
+}
+.header-content-item-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* box-shadow: 0px 4px 2px 1px; */
+}
+.header-text-card {
+  display: flex;
+  align-items: center;
+}
+.victory-img {
+  height: 21px;
+  width: 59px;
+  left: 200px;
+  top: 25px;
+  border-radius: 0px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.victory-paragraph {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+}
+.search-header {
+  height: 28px;
+  width: 214px;
+  left: 781px;
+  top: 18px;
+  border-radius: 3px;
+  margin-right: 40px;
+}
+.insta-home-paragraph {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #4094ef;
+  margin-right: 40px;
+}
+.logout-btn {
+  padding: 8px 24px;
+  gap: 8px;
+  width: 86px;
+  height: 32px;
+  background: #4094ef;
+  border-radius: 4px;
+  color: #ffffff;
+  border: none;
+  margin-right: 40px;
+  cursor: pointer;
+}
